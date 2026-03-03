@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My first website</title>
+    <link rel="stylesheet" href="styles.css">
+    <nav>
+        <a href="#intro">Intro</a>
+        <a href="#interests">Interests</a>
+        <a href="#picture">Me</a>
+    </nav>
+</head>
+<body>
+    <main>
+    <section id="#intro">
+    <h1>Hello World!</h1>
+    <summary>This is all about me</summary>
+    <details open>
+    <p>This is my third attempt at learnign to write code. These are my interests:</p>
+    <ul>
+        <li>D3</li>
+        <li>JavaScript</li>
+        <li><em>CSS</em></li>
+    </ul>
+    </details>
+    </section>
+    <section id="#interests">
+    <p>I also have a few curiosities about rapid prototyping with AI. In the following order:</p>
+    <ol>
+        <li><strong>AI Vibe Coding</strong></li>
+        <li>Cursor AI</li>
+    </ol>
+    </section>
+    <section id="#me">
+    <p>here are a fiew of my <a href="https://interrobang.ro" target="_blank">projects</a></p>
+    <p>and here is a picture of me</p>
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQHapCvwQbqiRg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1684304966884?e=1773878400&v=beta&t=GDy4UyYdV1hjWZ49-fJzlHoESl8fB_s7-c16cQh2qZM" height="300px">
+    </section>
+    <section>
+        <table>
+            <thead><tr><th>Project</th><th>Year</th></tr></thead>
+            <tbody><tr><td>Woven Secrets</td><td>2024</td></tr></tbody>
+        </table>
+    </section>
+    <div class="content-box">
+        <p id="text">If you click the button below you will make me larger</p>
+        <button class="first-button" id="btn" onclick="document.getElementById('text').style.fontSize = '32px'">Click me now!</button>
+    </div>
+    </main>
+    <script src="code.js"></script> 
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 18px;
+}
+.content-box {
+    padding: 16px;
+    background: rgb(238, 238, 238);
+    border-radius: 16px;
+}
+.first-button {
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 16px;
+}
+.first-button:hover {
+    background-color: aqua;
+}
